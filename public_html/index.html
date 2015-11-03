@@ -15,7 +15,7 @@ and open the template in the editor.
                 top : 0;
                 left : 0;
                 right : 80%;
-                bottom : 0%;
+                bottom : 0;
                 border : 2px solid white;
                 background-color : darkgray;
             }            
@@ -25,90 +25,81 @@ and open the template in the editor.
             }
             #div3 {
                 margin-top: auto;
-                margin-left: 20%;
+                margin-left: 20%;                
                 border-top : 2px solid maroon;
             }
             #div4 {
                 position : absolute;
-                top : 20%;
+                top : 50%;
                 left : 0%;
                 right : 0%;
                 bottom : auto;
                 border : 2px solid black;
                 background-color : grey;
             }
+            h2 {
+                color : DarkRed
+            }
+            h3 {
+                color : DarkCyan 
+            }
         </style>
     </head>
     <body>
         <div id="div1">
-            <div id="div4">Info Kevin</div>
+            <div id="div4">
+                <h2>Kevin Allen</h2>
+                <p>514-123-4567 <br>1000 Notre-Dame, Repentigny <br> kevin_allen123@gmail.com<p>
+            </div>            
         </div>
         <div id="div2">
-        931 rue Notre-Dame, Repentigny, QC
-	514-222-7366
-	Kevin_Allen67@hotmail.com
-        Kevin Allen
-        Informations
-        Âge : 25 ans
-        Langues : Français et Anglais parlés et écrits
-        Références : Sur demande
-        Cursus universitaire
-        2012-2016	Université du Québec à Montréal	Montréal, QC
-        •	Baccalauréat ès sciences de la gestion par cumul de programmes
-        1.	Certificat en Administration
-        2.	Certificat en Technologie des affaires
-        3.	Certificat en Informatique et développement de logiciels
-        Cursus collégial
-        2006-2009	Cégep Régional de Lanaudière	L’Assomption, QC
-        •	Diplôme d’études collégiales Sciences Humaines
-        1.	Profil individu
-        
+        <h2>Éducation</h2>
+        <h3>Cursus universitaire</h3>              
+        <ul><b>Université du Québec à Montréal</b>
+        	<ul><li>Baccalauréat ès sciences de la gestion par cumul de programmes</li>
+                            <ol><li>Certificat en Administration
+        		    <li>Certificat en Technologie des affaires
+        		    <li>Certificat en Informatique et développement de logiciels
+                            </ol>
+                </ul>
+        </ul>      
+        <h3>Cursus collégial</h3>
+        <ul><b>Cégep Régional de Lanaudière</b>
+        		<ul><li>Diplôme d’études collégiales Sciences Humaines</li>
+        		    <ol><li>Profil individu</li></ol>
         </div>
         <div id="div3">
-        Expérience professionnelle
-        2014-2015	Ville de Repentigny	Repentigny, QC
-        Chef d’unité, service des loisirs
-        •	Faire le lien entre les organismes et la ville de Repentigny
-        •	Superviser et évaluer les Responsables
-        •	Gérer les plaintes et les commentaires des clients
-        •	Aider la chef de section dans ses fonctions
-        •	Prendre en charge le programme d’aide-animateur bénévole
-        2014-2015	Future Shop	Lachenaie, QC
-        Associé aux ventes (Solutions Connectées)
-        •	Vente au détail des produits informatiques
-        •	Faire des soumissions et des suivis
-        •	Recevoir les commandes de stocks
-        •	S’occuper des transactions (débit, crédit)
-        2013-2014	Bain Dépôt	Lachenaie, QC
-        Conseiller en vente au détail
-        •	Vente au détail des produits en magasins
-        •	Faire des soumissions et des suivis
-        •	Recevoir les commandes de stocks
-        •	S’occuper des transactions (débit, crédit, comptant)
-        2012-2013	Centre Local d’emploi	Repentigny, QC
-        Responsable de la salle Multi-Service
-        •	Aider les clients avec l’utilisation des ordinateurs
-        •	Remettre les documents nécessaires et les faire remplir
-        •	Aider les agents (es) d’aide à l’emploi dans leurs fonctions
-        2010-2013	Ville de Repentigny	Repentigny, QC
-        Responsable dans les camps de jours
-        •	Créer et donner des formations (D.A.F.A.) aux animateurs
-        •	Superviser et évaluer les animateurs
-        •	Gérer un horaire, des animateurs, des enfants ainsi que le camp
-        •	Animation d’enfants et d’animateurs
-        2010-2012	IGA Crevier	Repentigny, QC
-        Commis d’épicerie / Emballeur
-        •	Répondre aux clients
-        •	Faire la réception des commandes en suivant les procédures
-        •	Placer les items de la commande au bon endroit et faire la rotation
-        •	Faire les livraisons aux clients à bord du véhicule de la compagnie
-        2005-2009	Ville de Repentigny	Repentigny, QC
-        Animateur dans les camps de jour
-        •	S’occuper d’enfant entre cinq et douze ans pendant la journée
-        •	Animer des activités
-        •	S’assurer de la sécurité des enfants lors des sorties
-        Centres d'intérêts
-        Organisation d’équipes sportives (hockey, soccer), Formateur D.A.F.A., Intérêt pour l’informatique.
+        <h2>Expérience professionnelle</h2>
+        <h3>Chef d’unité, service des loisirs Ville de Repentigny</h3>
+            <ul><li>Faire le lien entre les organismes et la ville de Repentigny</li>
+         	<li>Superviser et évaluer les Responsables</li>
+         	<li>Gérer les plaintes et les commentaires des clients</li>
+         	<li>Aider la chef de section dans ses fonctions</li>
+         	<li>Prendre en charge le programme d’aide-animateur bénévole</li>
+            </ul>       
+        <h3>Associé aux ventes (Solutions Connectées) Future Shop / Best Buy</h3>
+             <ul><li>Vente au détail des produits informatiques
+        	 <li>Faire des soumissions et des suivis</li>
+        	 <li>Recevoir les commandes de stocks</li>
+         	 <li>S’occuper des transactions (débit, crédit, comptant)</li>
+             </ul>
+        <h3>Conseiller en vente au détail Bain dépôt</h3>
+              <ul><li>Vente au détail des produits en magasins</li>
+        	  <li>Faire des soumissions et des suivis</li>
+        	  <li>Recevoir les commandes de stocks</li>
+        	  <li>S’occuper des transactions (débit, crédit, comptant)</li>
+              </ul>
+        <h3>Responsable de la salle Multi-Service Centre Local d’emploi</h3>
+        	<ul><li>Aider les clients avec l’utilisation des ordinateurs</li>
+        	    <li>Remettre les documents nécessaires et les faire remplir</li>
+        	    <li>Aider les agents (es) d’aide à l’emploi dans leurs fonctions</li>
+                </ul>
+        <h3>Responsable dans les camps de jours Ville de Repentigny</h3>
+        	<ul><li>Créer et donner des formations (D.A.F.A.) aux animateurs</li>
+        	    <li>Superviser et évaluer les animateurs</li>
+        	    <li>Gérer un horaire, des animateurs, des enfants ainsi que le camp</li>
+        	    <li>Animation d’enfants et d’animateurs</li>
+                </ul>        
         </div>            
     </body>
 </html>
